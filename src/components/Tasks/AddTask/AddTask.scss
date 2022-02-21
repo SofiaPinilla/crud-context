@@ -1,0 +1,25 @@
+@import '../../../colors.scss';
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    form{
+        background-color: $otherColor;
+        padding: 0.5em;
+        border-radius: 1em;
+        input{
+            all: unset;
+            background-color: azure;
+            border-radius: 1em;
+        }
+        button{
+            all: unset;
+            padding: 0.5em;
+            cursor: pointer;
+            background-color: $secondaryColor;
+            color: azure;
+            border-radius: 0.5em;
+            margin: 1em;
+        }
+    }
+}

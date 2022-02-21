@@ -1,0 +1,18 @@
+@import '../../../colors.scss';
+.task{
+    background-color: $primaryColor;
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-around;
+    button{
+        all: unset;
+        background-color: $otherColor;
+        color: azure;
+        padding:1em;
+        width: 1em;
+        border-radius: 1em;
+    }
+}
